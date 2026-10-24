@@ -1,0 +1,247 @@
+{
+  "observations": [
+    {
+      "id": 101,
+      "name": "own_source",
+      "source": "claude",
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1010,
+      "session_present": true
+    },
+    {
+      "id": 102,
+      "name": "other_source",
+      "source": "codex",
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1020,
+      "session_present": true
+    },
+    {
+      "id": 103,
+      "name": "null_source",
+      "source": null,
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1030,
+      "session_present": true
+    },
+    {
+      "id": 104,
+      "name": "missing_session",
+      "source": null,
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1040,
+      "session_present": false
+    },
+    {
+      "id": 105,
+      "name": "empty_source",
+      "source": "",
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1050,
+      "session_present": true
+    },
+    {
+      "id": 106,
+      "name": "unknown_source",
+      "source": "other",
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1060,
+      "session_present": true
+    },
+    {
+      "id": 107,
+      "name": "case_source",
+      "source": "Claude",
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1070,
+      "session_present": true
+    },
+    {
+      "id": 108,
+      "name": "other_project",
+      "source": "claude",
+      "project": "beta",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1080,
+      "session_present": true
+    },
+    {
+      "id": 109,
+      "name": "case_project",
+      "source": "claude",
+      "project": "ALPHA",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1090,
+      "session_present": true
+    },
+    {
+      "id": 110,
+      "name": "wrong_type",
+      "source": "claude",
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "unselected",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1100,
+      "session_present": true
+    },
+    {
+      "id": 111,
+      "name": "invalid_concepts",
+      "source": "claude",
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "not-json",
+      "marker": "INERT-NOTE",
+      "timestamp": 1110,
+      "session_present": true
+    },
+    {
+      "id": 112,
+      "name": "wrong_concept",
+      "source": "claude",
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"other\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1120,
+      "session_present": true
+    },
+    {
+      "id": 113,
+      "name": "merged_alias",
+      "source": "claude",
+      "project": "legacy",
+      "merged_into_project": "alpha",
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1130,
+      "session_present": true
+    },
+    {
+      "id": 114,
+      "name": "new_own",
+      "source": "claude",
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1140,
+      "session_present": true
+    },
+    {
+      "id": 115,
+      "name": "new_other",
+      "source": "codex",
+      "project": "alpha",
+      "merged_into_project": null,
+      "type": "discovery",
+      "concepts": "[\"security\"]",
+      "marker": "INERT-NOTE",
+      "timestamp": 1150,
+      "session_present": true
+    }
+  ],
+  "summaries": [
+    {
+      "id": 201,
+      "name": "own_summary",
+      "source": "claude",
+      "project": "alpha",
+      "merged_into_project": null,
+      "marker": "INERT-SUMMARY",
+      "timestamp": 2010,
+      "session_present": true
+    },
+    {
+      "id": 202,
+      "name": "other_summary",
+      "source": "codex",
+      "project": "alpha",
+      "merged_into_project": null,
+      "marker": "INERT-SUMMARY",
+      "timestamp": 2020,
+      "session_present": true
+    },
+    {
+      "id": 203,
+      "name": "null_summary",
+      "source": null,
+      "project": "alpha",
+      "merged_into_project": null,
+      "marker": "INERT-SUMMARY",
+      "timestamp": 2030,
+      "session_present": true
+    },
+    {
+      "id": 204,
+      "name": "missing_summary",
+      "source": null,
+      "project": "alpha",
+      "merged_into_project": null,
+      "marker": "INERT-SUMMARY",
+      "timestamp": 2040,
+      "session_present": false
+    },
+    {
+      "id": 205,
+      "name": "outside_summary",
+      "source": "claude",
+      "project": "beta",
+      "merged_into_project": null,
+      "marker": "INERT-SUMMARY",
+      "timestamp": 2050,
+      "session_present": true
+    },
+    {
+      "id": 206,
+      "name": "new_own_summary",
+      "source": "claude",
+      "project": "alpha",
+      "merged_into_project": null,
+      "marker": "INERT-SUMMARY",
+      "timestamp": 2060,
+      "session_present": true
+    }
+  ],
+  "scope": "invented inert rows; trusted database metadata; no agent, model or external service"
+}

@@ -1,0 +1,29 @@
+{
+  "repository": "https://github.com/thedotmack/claude-mem",
+  "commit": "75fc021a40655cbdd258f0e070f55a03ea9c8642",
+  "path": "src/services/context/ObservationCompiler.ts",
+  "blob": "cb853ec284f2c49825b0d2d6cbbdf7409942df7b",
+  "full_source_sha256": "195e3fba824878db46df2e428d4b0d89728916ea215289719b04e59dcd0efe26",
+  "license_blob": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+  "types_blob": "29738ec70b692a48db92a75bf4be21a8966a51e3",
+  "summary_lookahead": 1,
+  "extraction": [
+    {
+      "start_line": 24,
+      "end_line": 76,
+      "sha256": "914e1f112934b385842199ef5b9c47680fd60d52c8ca69e82b09ec51e48b5e06"
+    },
+    {
+      "start_line": 111,
+      "end_line": 208,
+      "sha256": "d2c2f5d6f77ab723d23b79fc7ce93ea7a468c30e23c4732b9c48eba0a15ddf86"
+    },
+    {
+      "start_line": 228,
+      "end_line": 280,
+      "sha256": "ff3e3bc5a59acf2fd91fde91136b3ee334e291d9ce13e6774c9664b628b22dce"
+    }
+  ],
+  "vendor_sha256": "f4882d3d2c91a782177549d41dee7012b0d9fc892c820df09a6c8aa309483836",
+  "adapter": "Node node:sqlite prepare/all with no-op finalize. Bun runtime not used. No original query statement changes; type aliases and an unused-path throwing guard supplied. No ranking, subagent filtering, renderer, hooks or hosted server."
+}

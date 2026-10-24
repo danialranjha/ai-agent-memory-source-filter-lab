@@ -1,0 +1,161 @@
+{
+  "baseline": {
+    "fault": "none",
+    "passed": 11,
+    "failed": 0,
+    "errors": 0,
+    "results": [
+      {
+        "name": "exact observation IDs across nine configurations",
+        "passed": true
+      },
+      {
+        "name": "exact summary IDs across nine configurations",
+        "passed": true
+      },
+      {
+        "name": "own-source benign twin retained and other-source removed",
+        "passed": true
+      },
+      {
+        "name": "NULL and absent join display fallback is not raw source identity",
+        "passed": true
+      },
+      {
+        "name": "empty source does not get NULL fallback",
+        "passed": true
+      },
+      {
+        "name": "project isolation and type/concept validity preserved",
+        "passed": true
+      },
+      {
+        "name": "project casing matches while source casing remains distinct",
+        "passed": true
+      },
+      {
+        "name": "filter occurs before result limit",
+        "passed": true
+      },
+      {
+        "name": "merged aliases do not duplicate rows",
+        "passed": true
+      },
+      {
+        "name": "markers remain exact inert bytes",
+        "passed": true
+      },
+      {
+        "name": "source extraction bytes preserved",
+        "passed": true
+      }
+    ]
+  },
+  "faults": [
+    {
+      "fault": "drop_filter",
+      "passed": 3,
+      "failed": 8,
+      "errors": 0,
+      "results": [
+        {
+          "name": "exact observation IDs across nine configurations",
+          "passed": false
+        },
+        {
+          "name": "exact summary IDs across nine configurations",
+          "passed": false
+        },
+        {
+          "name": "own-source benign twin retained and other-source removed",
+          "passed": false
+        },
+        {
+          "name": "NULL and absent join display fallback is not raw source identity",
+          "passed": false
+        },
+        {
+          "name": "empty source does not get NULL fallback",
+          "passed": false
+        },
+        {
+          "name": "project isolation and type/concept validity preserved",
+          "passed": true
+        },
+        {
+          "name": "project casing matches while source casing remains distinct",
+          "passed": false
+        },
+        {
+          "name": "filter occurs before result limit",
+          "passed": false
+        },
+        {
+          "name": "merged aliases do not duplicate rows",
+          "passed": false
+        },
+        {
+          "name": "markers remain exact inert bytes",
+          "passed": true
+        },
+        {
+          "name": "source extraction bytes preserved",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "fault": "coalesce_filter",
+      "passed": 7,
+      "failed": 4,
+      "errors": 0,
+      "results": [
+        {
+          "name": "exact observation IDs across nine configurations",
+          "passed": false
+        },
+        {
+          "name": "exact summary IDs across nine configurations",
+          "passed": false
+        },
+        {
+          "name": "own-source benign twin retained and other-source removed",
+          "passed": true
+        },
+        {
+          "name": "NULL and absent join display fallback is not raw source identity",
+          "passed": false
+        },
+        {
+          "name": "empty source does not get NULL fallback",
+          "passed": true
+        },
+        {
+          "name": "project isolation and type/concept validity preserved",
+          "passed": true
+        },
+        {
+          "name": "project casing matches while source casing remains distinct",
+          "passed": true
+        },
+        {
+          "name": "filter occurs before result limit",
+          "passed": true
+        },
+        {
+          "name": "merged aliases do not duplicate rows",
+          "passed": false
+        },
+        {
+          "name": "markers remain exact inert bytes",
+          "passed": true
+        },
+        {
+          "name": "source extraction bytes preserved",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "method": "Functional query faults tested on the same SQLite fixtures; no mutation of vendored source files"
+}

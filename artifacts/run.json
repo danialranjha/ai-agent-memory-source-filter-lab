@@ -1,0 +1,476 @@
+{
+  "scope": "Source query component with synthetic SQLite rows; no model, renderer, startup hook, hosted store or real memory",
+  "counts": {
+    "observation_fixtures": 15,
+    "summary_fixtures": 6,
+    "configurations": 9,
+    "query_results": 18
+  },
+  "runs": [
+    {
+      "name": "all_sources",
+      "source": null,
+      "projects": [
+        "alpha"
+      ],
+      "observation_limit": 30,
+      "summary_limit": 31,
+      "observations": [
+        {
+          "id": 115,
+          "name": "new_other",
+          "raw_source": "codex",
+          "session_present": true,
+          "displayed_source": "codex",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 114,
+          "name": "new_own",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 113,
+          "name": "merged_alias",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "legacy",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 109,
+          "name": "case_project",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "ALPHA",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 107,
+          "name": "case_source",
+          "raw_source": "Claude",
+          "session_present": true,
+          "displayed_source": "Claude",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 106,
+          "name": "unknown_source",
+          "raw_source": "other",
+          "session_present": true,
+          "displayed_source": "other",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 105,
+          "name": "empty_source",
+          "raw_source": "",
+          "session_present": true,
+          "displayed_source": "",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 104,
+          "name": "missing_session",
+          "raw_source": null,
+          "session_present": false,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 103,
+          "name": "null_source",
+          "raw_source": null,
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 102,
+          "name": "other_source",
+          "raw_source": "codex",
+          "session_present": true,
+          "displayed_source": "codex",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 101,
+          "name": "own_source",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        }
+      ],
+      "summaries": [
+        {
+          "id": 206,
+          "name": "new_own_summary",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        },
+        {
+          "id": 204,
+          "name": "missing_summary",
+          "raw_source": null,
+          "session_present": false,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        },
+        {
+          "id": 203,
+          "name": "null_summary",
+          "raw_source": null,
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        },
+        {
+          "id": 202,
+          "name": "other_summary",
+          "raw_source": "codex",
+          "session_present": true,
+          "displayed_source": "codex",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        },
+        {
+          "id": 201,
+          "name": "own_summary",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        }
+      ]
+    },
+    {
+      "name": "claude_only",
+      "source": "claude",
+      "projects": [
+        "alpha"
+      ],
+      "observation_limit": 30,
+      "summary_limit": 31,
+      "observations": [
+        {
+          "id": 114,
+          "name": "new_own",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 113,
+          "name": "merged_alias",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "legacy",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 109,
+          "name": "case_project",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "ALPHA",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 101,
+          "name": "own_source",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        }
+      ],
+      "summaries": [
+        {
+          "id": 206,
+          "name": "new_own_summary",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        },
+        {
+          "id": 201,
+          "name": "own_summary",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        }
+      ]
+    },
+    {
+      "name": "codex_only",
+      "source": "codex",
+      "projects": [
+        "alpha"
+      ],
+      "observation_limit": 30,
+      "summary_limit": 31,
+      "observations": [
+        {
+          "id": 115,
+          "name": "new_other",
+          "raw_source": "codex",
+          "session_present": true,
+          "displayed_source": "codex",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 102,
+          "name": "other_source",
+          "raw_source": "codex",
+          "session_present": true,
+          "displayed_source": "codex",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        }
+      ],
+      "summaries": [
+        {
+          "id": 202,
+          "name": "other_summary",
+          "raw_source": "codex",
+          "session_present": true,
+          "displayed_source": "codex",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        }
+      ]
+    },
+    {
+      "name": "unknown_only",
+      "source": "other",
+      "projects": [
+        "alpha"
+      ],
+      "observation_limit": 30,
+      "summary_limit": 31,
+      "observations": [
+        {
+          "id": 106,
+          "name": "unknown_source",
+          "raw_source": "other",
+          "session_present": true,
+          "displayed_source": "other",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        }
+      ],
+      "summaries": []
+    },
+    {
+      "name": "no_match",
+      "source": "unregistered",
+      "projects": [
+        "alpha"
+      ],
+      "observation_limit": 30,
+      "summary_limit": 31,
+      "observations": [],
+      "summaries": []
+    },
+    {
+      "name": "all_limit_one",
+      "source": null,
+      "projects": [
+        "alpha"
+      ],
+      "observation_limit": 1,
+      "summary_limit": 2,
+      "observations": [
+        {
+          "id": 115,
+          "name": "new_other",
+          "raw_source": "codex",
+          "session_present": true,
+          "displayed_source": "codex",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        }
+      ],
+      "summaries": [
+        {
+          "id": 206,
+          "name": "new_own_summary",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        },
+        {
+          "id": 204,
+          "name": "missing_summary",
+          "raw_source": null,
+          "session_present": false,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        }
+      ]
+    },
+    {
+      "name": "claude_limit_one",
+      "source": "claude",
+      "projects": [
+        "alpha"
+      ],
+      "observation_limit": 1,
+      "summary_limit": 2,
+      "observations": [
+        {
+          "id": 114,
+          "name": "new_own",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        }
+      ],
+      "summaries": [
+        {
+          "id": 206,
+          "name": "new_own_summary",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        },
+        {
+          "id": 201,
+          "name": "own_summary",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        }
+      ]
+    },
+    {
+      "name": "alias_union",
+      "source": "claude",
+      "projects": [
+        "alpha",
+        "legacy"
+      ],
+      "observation_limit": 30,
+      "summary_limit": 31,
+      "observations": [
+        {
+          "id": 114,
+          "name": "new_own",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 113,
+          "name": "merged_alias",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "legacy",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 109,
+          "name": "case_project",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "ALPHA",
+          "marker": "INERT-NOTE"
+        },
+        {
+          "id": 101,
+          "name": "own_source",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        }
+      ],
+      "summaries": [
+        {
+          "id": 206,
+          "name": "new_own_summary",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        },
+        {
+          "id": 201,
+          "name": "own_summary",
+          "raw_source": "claude",
+          "session_present": true,
+          "displayed_source": "claude",
+          "project": "alpha",
+          "marker": "INERT-SUMMARY"
+        }
+      ]
+    },
+    {
+      "name": "source_case",
+      "source": "Claude",
+      "projects": [
+        "alpha"
+      ],
+      "observation_limit": 30,
+      "summary_limit": 31,
+      "observations": [
+        {
+          "id": 107,
+          "name": "case_source",
+          "raw_source": "Claude",
+          "session_present": true,
+          "displayed_source": "Claude",
+          "project": "alpha",
+          "marker": "INERT-NOTE"
+        }
+      ],
+      "summaries": []
+    }
+  ]
+}
